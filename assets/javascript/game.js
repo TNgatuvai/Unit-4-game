@@ -41,13 +41,13 @@ $(document).ready(function () {
     }
 
     function winner() {
-        alert("congrats, you won");
+        alert("Winner Winner Chicken Dinner!!");
         wins++;
         $("#wins").html(wins);
         reset()
     }
     function loser() {
-        alert("Oh My Gosh! Are you serious right now?!");
+        alert("LOSER!!");
         losses++;
         $("#lose").html(losses);
         reset();
